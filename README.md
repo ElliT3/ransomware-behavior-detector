@@ -1,0 +1,1 @@
+Ransomware Behavior Detector works like a SIEM (Security Information and Event Management) system, continuously monitoring system activity to identify suspicious behavior and potential ransomware attacks. It analyzes system logs, process IDs (PIDs), disk write speeds, file modifications, and other system activities to detect malicious behavior. 
