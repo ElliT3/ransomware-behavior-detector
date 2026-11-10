@@ -1,0 +1,9 @@
+#Run this commands in sandbox directory
+
+openssl enc -aes-256-cbc -salt -pbkdf2 -iter 200000 \
+-in test.txt -out test.txt.enc
+
+openssl enc -d -aes-256-cbc -pbkdf2 -iter 200000 \
+-in test.txt.enc -out decrypted.txt
+
+
